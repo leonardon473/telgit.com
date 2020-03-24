@@ -1,0 +1,11 @@
+@import "bootstrap/bootstrap";
+
+.logo {
+  height: 30px;
+}
+
+@include media-breakpoint-up(md) {
+  .logo {
+    height: 40px;
+  }
+}
