@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/telgitco/public_html/
-    - /bin/rm -rf $DEPLOYPATH
+    - /bin/rm -rf $DEPLOYPATH/*
     - /bin/cp -v *.html $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
